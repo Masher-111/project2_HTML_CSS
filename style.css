@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+a{
+    text-decoration: none;
+}
+.header{
+    padding-top: 51px;
+    padding-bottom: 94.71px;
+}
+
+.header_links{
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+.orange{
+    color: #F25822;
+}
+.top_info{
+    margin-bottom: 17px;
+}
+
+.title{
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.top_buttons{
+    margin-top: 37px;
+}
+
+.button_start{
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border-color: white;
+}
+
+.button_watch{
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    border: none;
+    background-color: white;
+}
+.top_logos{
+    margin-top: 162px;
+}
