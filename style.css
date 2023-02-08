@@ -5,9 +5,56 @@
 a{
     text-decoration: none;
 }
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Bold.woff2");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Medium.woff2");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-SemiBold.woff2");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+body{
+    font-family: "Gilroy";
+}
+
+
+
+.center{
+    padding-left: calc(50% - 587px);
+    padding-right: calc(50% - 587px);
+}
+
 .header{
-    padding-top: 51px;
-    padding-bottom: 94.71px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.header_menu{
+    display: flex;
+    gap: 26.3px;
+    justify-content: space-between;
 }
 
 .header_links{
@@ -18,38 +65,58 @@ a{
 .orange{
     color: #F25822;
 }
+
+.top_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 94px;
+}
 .top_info{
     margin-bottom: 17px;
 }
 
 .title{
+    width: 522px;
     font-size: 60px;
     line-height: 70px;
     color: #000000;
 }
 
 .text{
+    width: 466px;
     font-size: 20px;
     line-height: 23px;
     color: #888888;
 }
 
 .top_buttons{
+    display: flex;
     margin-top: 37px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 72px;
 }
 
 .button_start{
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
-
+    width: 140px;
+    height: 50px;
     background: #F25822;
-    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    box-shadow: 4px 4px 8px rgb(242 88 34 / 20%);
     border-radius: 50px;
-    border-color: white;
+    border-color: rgb(242 88 34 / 20%);
 }
 
 .button_watch{
+    width: 90px;
+    height: 19px;
+
     font-size: 15px;
     line-height: 18px;
     color: #AAAAAA;
@@ -58,4 +125,7 @@ a{
 }
 .top_logos{
     margin-top: 162px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
 }
