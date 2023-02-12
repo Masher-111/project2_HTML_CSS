@@ -61,10 +61,13 @@ body{
     font-size: 14px;
     line-height: 16px;
     color: #000;
+    fill: #F25822;
 }
-.orange{
+
+a:hover{
     color: #F25822;
 }
+
 
 .top_content{
     display: flex;
@@ -101,7 +104,7 @@ body{
     gap: 72px;
 }
 
-.button_start{
+.button_orange{
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
@@ -129,3 +132,132 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.item_content{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 370px);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.item{
+    background: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+
+}
+
+.shadow{
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+  
+.heading{
+    font-style: normal;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;
+}
+
+.item_text{
+    width: 310px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: left;
+    vertical-align: top;
+    color:#666666;
+    
+}
+
+.item_btn{
+    height: 17px;
+    width: 64px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: left;
+    color: #000000;
+    border: none;
+    background-color: white;
+    
+}
+
+.shadow_large{
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.section_bottom{
+    
+    padding-top: 92px;
+    padding-bottom: 100px;
+    display: grid;
+    justify-items: center;
+    
+}
+
+.color{
+    background: #FAFAFA;
+}
+
+.section_info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+
+.info_title{
+    margin-bottom: 19px;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.info_text{
+    text-align: center;
+    width: 682px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.section{
+    background: #FFFFFF;
+    width: 370px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+        
+}
+
+.section_heading{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 22px;
+    
+}
+
+.section_text{
+    width: 310px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 39px;
+}
+
+
+
+
